@@ -1,0 +1,23 @@
+{
+  "name": "ShoppingList",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mentalgrinds/ShoppingList.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mentalgrinds/ShoppingList/issues"
+  },
+  "homepage": "https://github.com/mentalgrinds/ShoppingList",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.1.0"
+  }
+}
