@@ -23,3 +23,15 @@ ShoppingList.prototype.removeItem = function (item) {
     throw 'ERROR: Invalid item type. Only "ListItem"s can be removed to the ShoppingList'; 
   }
 };
+
+ShoppingList.prototype.render = function () {
+  var frontTag = '<ul>';
+  var contents = '';
+  var endTag = '</ul>';
+
+  this.items.forEach( function (item) {
+    contents = contents.concat(item.render());
+  });
+
+  return frontTag + contents + endTag;
+};

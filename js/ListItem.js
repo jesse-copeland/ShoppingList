@@ -14,9 +14,9 @@ ListItem.prototype.unCheck = function () {
 };
 
 ListItem.prototype.render = function () {
-  var htmlResult = '<li class="completed-' + this.is_done + '">' +
+  var listItemElement = '<li class="completed-' + this.isDone + '">' +
                       '<span>' + this.name + '</span>' +
                       '<span>' + this.description + '</span>' +
                     '</li>';
-  return htmlResult;
+  return listItemElement;
 };
